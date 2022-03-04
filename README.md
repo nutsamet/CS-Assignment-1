@@ -29,7 +29,7 @@ We first created three independent variables - x_1, x_2,and x_3 using the condit
 STEP 3
 Using an incorrect model of the systematic component (of your choice), and using the simulation-based approach covered in class (the arm library, etc.), generate 1 prediction for every observation and calculate and report RMSE. Make sure you write out your model and report your RMSE.
 Each prediction should be conditional on the predictor values of the corresponding observation. E.g., when predicting for observation #1, use the predictor values of observation #1.
-# YOUR CODE HERE
+
 set.seed(123)
  
 x_1 <- runif(1000, min = 0, max = 1)
@@ -61,7 +61,7 @@ print(rmse(df$y, pred))
 STEP 4
 Using the correct model (correct systematic and stochastic components), and using the simulation-based approach covered in class (the arm library, etc.), generate 1 prediction for every observation and calculate & report your RMSE. Once again, write out your model and report your RMSE.
 Each prediction should be conditional on the predictor values of the corresponding observation. E.g., when predicting for observation #1, use the predictor values of observation #1.
-# YOUR CODE HERE
+
 set.seed(123)
  
 x_1 <- runif(1000, min = 0, max = 1)
